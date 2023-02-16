@@ -26,7 +26,7 @@ function App() {
           Our Equilibrium collection promotes balance and calm.
         </p>
 
-        <div className="flex justify-between py-3">
+        <div className="flex justify-between items-center py-3">
           <div className="flex flex-row">
             <img src={eth} alt="" className="object-scale-down" />
             <p className="ml-2 text-[#00fff7]">0.041 ETH</p>
