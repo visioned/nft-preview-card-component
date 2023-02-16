@@ -7,7 +7,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <div className="p-6 w-[350px] h-[600px] bg-[#15273f] rounded-2xl shadow-2xl">
+      <div className="p-6 max-w-[325px] max-h-[550px] bg-[#15273f] rounded-2xl shadow-2xl">
         <div class="relative rounded-2xl cursor-pointer group">
           <div class="absolute inset-0 bg-[#00fff7] rounded-2xl opacity-0 transition-opacity duration-300 group-hover:opacity-50 "></div>
           <img
@@ -27,12 +27,12 @@ function App() {
         </p>
 
         <div className="flex justify-between py-3">
-          <div className="flex">
+          <div className="flex flex-row">
             <img src={eth} alt="" className="object-scale-down" />
             <p className="ml-2 text-[#00fff7]">0.041 ETH</p>
           </div>
 
-          <div className="flex">
+          <div className="flex flex-row">
             <img src={time} alt="" className="object-scale-down" />
             <p className="ml-2 text-[#8bacda]">3 days left</p>
           </div>
