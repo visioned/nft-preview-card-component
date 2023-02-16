@@ -7,7 +7,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <div className="p-6 w-[330px] h-[550px] bg-[#15273f] rounded-2xl shadow-2xl">
+      <div className="p-6 w-[335px] h-[550px] bg-[#15273f] rounded-2xl shadow-2xl">
         <div class="relative rounded-2xl cursor-pointer group">
           <div class="absolute inset-0 bg-[#00fff7] rounded-2xl opacity-0 transition-opacity duration-300 group-hover:opacity-50 "></div>
           <img
